@@ -1,0 +1,44 @@
+body {
+    background-color: #444444;
+    color: whitesmoke;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.main {
+    background-color: #666666;
+    color: whitesmoke;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+  }
+  a:hover {
+    color: gray;
+  }
+  
+ul {
+  margin: 20;
+  padding: auto;
+}
+.list-group-item a {
+  color: #444444;
+}
+.list-group-item a:hover {
+  color: #666666;
+}
