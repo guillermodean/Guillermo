@@ -42,3 +42,17 @@ ul {
 .list-group-item a:hover {
   color: #666666;
 }
+.card-body {
+  color: #444444;
+}
+.card-body a:hover {
+  color: #666666;
+}
+
+.image-blurred-edge {
+
+  width: 200px;
+  height: 200px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 8px 8px white inset;
+}
