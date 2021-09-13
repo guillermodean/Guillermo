@@ -1,12 +1,12 @@
 body {
-    background-color: #444444;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #666666;
     font-family: 'Hind Siliguri', sans-serif;
 }
 
 .main {
-    background-color: #666666;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #666666;
 }
 /* Featurettes
 ------------------------- */
@@ -29,7 +29,7 @@ body {
     
   }
   a:hover {
-    color: gray;
+    color: #0161C6;
   }
   
 ul {
@@ -40,13 +40,13 @@ ul {
   color: #444444;
 }
 .list-group-item a:hover {
-  color: #666666;
+  color: #0161C6;
 }
 .card-body {
   color: #444444;
 }
 .card-body a:hover {
-  color: #666666;
+  color: #0161C6;
 }
 
 .image-blurred-edge {
@@ -55,4 +55,39 @@ ul {
   height: 200px;
   /* you need to match the shadow color to your background or image border for the desired effect*/
   box-shadow: 0 0 8px 8px white inset;
+}
+
+.icon-blue {
+  color: #e0ca3c;
+}
+
+hr {
+  color: #e0ca3c;
+}
+
+.inline li{
+  display:inline;
+}
+.front {
+  background-image: url(public/img/12082017-DSC00219-stretch.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-muted{
+  color:#0161C6;
+}
+
+.site-header {
+  background-image: linear-gradient(to bottom, #444444, rgba(255,0,0,0));
+}
+
+.project {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #666666 ;
+}
+.box {
+  opacity: 0.8;
+  color:whitesmoke;
 }
