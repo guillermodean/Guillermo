@@ -72,6 +72,7 @@ hr {
   background-image: url(public/img/12082017-DSC00219-stretch.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
 }
 
 .text-muted{
@@ -90,4 +91,10 @@ hr {
 .box {
   opacity: 0.8;
   color:whitesmoke;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
