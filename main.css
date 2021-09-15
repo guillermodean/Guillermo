@@ -1,16 +1,54 @@
+
+/* --------------------MAIN------------------------- */
+
 body {
     background-color: whitesmoke;
     color: #666666;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind Siliguri';
 }
 
 .main {
     background-color: whitesmoke;
     color: #666666;
+    font-family: 'Hind Siliguri', sans-serif;
 }
-/* Featurettes
-------------------------- */
+.front {
+  background-image: url(public/img/12082017-DSC00219-scala.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+}
+.site-header {
+  background-image: linear-gradient(to bottom, #444444, rgba(255,0,0,0));
+}
 
+.site-header a {
+  color: whitesmoke;
+}
+.project {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #666666 ;
+}
+.box {
+  opacity: 1;
+  color:whitesmoke;
+  font-family: 'B612',sans-serif;
+  font-size: 200%;
+}
+.box p {
+  opacity: 1;
+  color:whitesmoke;
+  font-family: 'Hind Siliguri',sans-serif;
+  font-size: 130%;
+}
+
+/* --------------------Featurettes------------------------- */
+
+.text-muted{
+  color:#0161C6;
+}
 .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   }
@@ -24,14 +62,20 @@ body {
   }
 
   a {
-    color: whitesmoke;
+    color: #0161C6;
     text-decoration: none;
     
   }
   a:hover {
     color: #0161C6;
   }
-  
+
+hr {
+  color: #e0ca3c;
+}
+
+/* --------------------lists------------------------- */  
+
 ul {
   margin: 20;
   padding: auto;
@@ -42,12 +86,20 @@ ul {
 .list-group-item a:hover {
   color: #0161C6;
 }
+.inline li{
+  display:inline;
+}
+
+/* --------------------cards------------------------- */
+
 .card-body {
   color: #444444;
 }
 .card-body a:hover {
-  color: #0161C6;
+  color: whitesmoke;
 }
+
+/* --------------------images------------------------- */
 
 .image-blurred-edge {
 
@@ -56,45 +108,38 @@ ul {
   /* you need to match the shadow color to your background or image border for the desired effect*/
   box-shadow: 0 0 8px 8px white inset;
 }
-
-.icon-blue {
-  color: #e0ca3c;
-}
-
-hr {
-  color: #e0ca3c;
-}
-
-.inline li{
-  display:inline;
-}
-.front {
-  background-image: url(public/img/12082017-DSC00219-stretch.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-}
-
-.text-muted{
-  color:#0161C6;
-}
-
-.site-header {
-  background-image: linear-gradient(to bottom, #444444, rgba(255,0,0,0));
-}
-
-.project {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background: #666666 ;
-}
-.box {
-  opacity: 0.8;
-  color:whitesmoke;
-}
-
 .responsive {
   width: 100%;
   height: auto;
   max-width: 500px;
 }
+
+/* --------------------icons------------------------- */
+
+.icon-blue {
+  color: #e0ca3c;
+}
+.float-right{
+  float: right;
+  color: #0161C6;
+
+}
+/* --------------------Buttons------------------------- */
+.btn-a {
+  background-color:#0161C6 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
