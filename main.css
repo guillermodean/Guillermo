@@ -17,11 +17,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
   width: 100%;
+  
 }
 .site-header {
   background-image: linear-gradient(to bottom, #444444, rgba(255,0,0,0));
-}
+
+  }
+
+
 
 .site-header a {
   color: whitesmoke;
@@ -80,6 +85,18 @@ ul {
   margin: 20;
   padding: auto;
 }
+.list-group{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:auto;
+}
+.list-group-item{
+  margin: auto;
+  flex: auto;
+  height: fit-content;
+  justify-content:inherit;
+}
 .list-group-item a {
   color: #444444;
 }
@@ -97,6 +114,9 @@ ul {
 }
 .card-body a:hover {
   color: whitesmoke;
+}
+.card {
+  height: 100%;
 }
 
 /* --------------------images------------------------- */
@@ -128,6 +148,49 @@ ul {
 .btn-a {
   background-color:#0161C6 ;
 
+}
+.feature {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 
