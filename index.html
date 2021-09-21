@@ -8,13 +8,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
 
@@ -27,51 +25,47 @@
     <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
     <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
     <title>GDWEB</title>
 </head>
 
 <body>
-    <header class="site-header sticky-top py-1 flex">
-        <nav class="navbar container-fluid d-flex flex-column flex-md-row justify-content-between">
-            <a class="nav py-2 d-none d-md-inline-block" href="#Work-experiences">Work experiences</a>
-            <a class="nav py-2 d-none d-md-inline-block" href="#Projects">Projects</a>
-            <a class="nav py-2 d-none d-md-inline-block" href="#Social-Media">Social Media</a>
-            <a class="nav py-2 d-none d-md-inline-block" href="#sideline">Sideline</a>
-            <a class="nav py-2 d-none d-md-inline-block" href="#cuadrilla">Cuadrilla</a>
-        </nav>
-    </header>
-    <!-- <nav class=" navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="#">Home </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar header navbar-expand-lg fixed-top  ">
+        <a class="navbar-brand ml-6" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#Work-experiences">Work experiences</a>
-                <a class="nav-item nav-link py-2 d-none d-md-inline-block" href="#Projects">Projects</a>
-                <a class="nav py-2 d-none d-md-inline-block" href="#Social-Media">Social Media</a>
-                <a class="nav py-2 d-none d-md-inline-block" href="#sideline">Sideline</a>
-                <a class="nav py-2 d-none d-md-inline-block" href="#cuadrilla">Cuadrilla</a>
-            </div>
+        <div class="collapse navbar-collapse flex justify-content-lg-evenly" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Work-experiences">Work experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sideline">With passion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#Cuadrilla">Family and Friends</a>
+                </li>
+            </ul>
         </div>
-    </nav> -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
-          </div>
-        </div>
-      </nav> -->
-    <!-- ohaier -->
-
+    </nav>
     <div class="head position-relative overflow-hidden text-center front">
         <div class="col-md-5 p-lg-5 mx-auto my-5" style="height: 800px;;width: 100%;">
             <div class="box mx-auto" style="height: 200px;;width: 100%;">
@@ -335,7 +329,7 @@
             <div class="card">
                 <img class="card-img-top" src="public/img/eenavarra.jpg" alt="Megalitos">
                 <div class="card-body">
-                    <h2 class="card-title text-center">Megalitos Navarra</h5>
+                    <h2 class="card-title text-center">Eficiencia energetica Navarra blog</h5>
                         <p class="lead">Information blog on energy efficiency and renewable energies.
                         </p>
                         <a href="http://eenavarra.blogspot.com/" class="btn btn-a ">Discover</a>
@@ -429,47 +423,60 @@
             </h1>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider-mosaic">
 
-        <div class="row featurette p-lg-5">
-            <div class="container cuadrilla">
-                <div class="col-md-3">
 
+        <div class="row featurette featurette-mosaic p-lg-5">
+
+            <div class="row row-featurette-mosaic featurette justify-content-center flex-row">
+                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+                    <a href="https://faroasesoria.com/">
+                        <figure><img src="/public/img/Logo-sin-fondo-300x159.png" alt="Faro"></figure>
+                    </a>
+                    <span>Energy consultancy founded by my friend Diego Montesino.</span>
                 </div>
-                <div class="col-md-7">
-
+                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+                    <a href="https://oftal20.com/">
+                        <figure> <img src="/public/img/oftal.jpg" alt="oftal20"></figure>
+                    </a>
+                    <span>Oftal20 is a question competition for ophthalmology professionals launched by my friend Pablo
+                        Plaza.</span>
                 </div>
-            </div>
-            <div class="col-md-7  text-center text-md-center overflow-hidden position-relative p-3 p-md-6">
-                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for
-                        yourself.</span>
-                </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                    euismod
-                    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac
-                    cursus
-                    commodo.</p>
-            </div>
-            <div class="col-md-5 p-3 p-md-6">
-                <img src="public/img/12082017-DSC00304.jpg" alt="Postu2" class="responsive">
+                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+                    <a
+                        href="https://www.amazon.es/Universidad-P%C3%BAblica-Navarra-Nafarroako-Unibertsitate/dp/8497692896">
+                        <figure><img src="/public/img/WhatsApp Image 2021-09-16 at 17.59.20.jpeg" alt="Gon"></figure>
+                    </a>
+                    <span> Book with relevant information to help identify the species that inhabit the UPNA campus
+                        whose author is my brother Gonzalo Dean.</span>
+                </div>
+                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+                    <a href="https://www.cnmindfulness.es/">
+                        <figure><img src="/public/img/WhatsApp Image 2021-09-17 at 21.10.32.jpeg" alt="indra"></figure>
+                    </a>
+                    <span>The Navarre Center for Mindfulness is a space created with the aim of providing the theory and
+                        practice of mindfulness and other areas of Psychology.</span>
+                </div>
             </div>
         </div>
-        <!-- FOOTER -->
 
-        <hr id="Social-Media" class="featurette-divider">
+        <!-- FOOTER -->
+        <!-- 
+        <hr id="Social-Media" class="featurette-divider"> -->
 
 
         <div class="row featurette p-lg-5">
-    
-            <div class="col-md-7 text-center text-md-center overflow-hidden position-relative overflow-hidden  p-3 p-md-6">
+            <div
+                class="col-md-7 text-center text-md-center overflow-hidden position-relative overflow-hidden  p-3 p-md-6">
                 <h2 class="featurette-heading">Social Media. <span class="text-muted">It’ll not blow your
                         mind.</span></h2>
-                <p class="lead">Some great placeholder accounts wher you can find me not beeing professional.</p>
+                <p class="lead">Some great accounts where you can find me not beeing professional, except for Linkedin.
+                </p>
                 <div class="container-fluid">
                     <a href="https://www.facebook.com/gwillidean/" class="fa fa-facebook m-2"></a>
                     <a href="https://twitter.com/gramenhauer" class="fa fa-twitter m-2"></a>
                     <a href="https://www.instagram.com/will.j.dean/" class="fa fa-instagram m-2"></a>
-                    <a href="https://www.linkedin.com/in/guillermo-de%C3%A1n-683b9293" class="fa fa-linkedin m-2"></a>   
+                    <a href="https://www.linkedin.com/in/guillermo-de%C3%A1n-683b9293" class="fa fa-linkedin m-2"></a>
                 </div>
             </div>
             <div class="col-md-5  p-3 p-md-6">
