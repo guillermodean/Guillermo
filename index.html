@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 
 
@@ -35,45 +37,50 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 
 
     <title>GDWEB</title>
 </head>
 
 <body>
-    <nav class="navbar header navbar-expand-lg fixed-top  ">
-        <a class="navbar-brand ml-6" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex justify-content-lg-evenly" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#Work-experiences">Work experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sideline">With passion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#Cuadrilla">Family and Friends</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="head position-relative overflow-hidden text-center front">
+    <header>
+        <nav class="navbar header navbar-expand-lg fixed-top justify-content-sm-between">
+            <a class="navbar-brand ml-6" href="#">Home</a>
+            <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Work-experiences">Work experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sideline">With passion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Cuadrilla">Family and Friends</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="position-relative overflow-hidden text-center front">
+
         <div class="col-md-5 p-lg-5 mx-auto my-5" style="height: 800px;;width: 100%;">
             <div class="box mx-auto" style="height: 200px;;width: 100%;">
                 <h1 class="display-2 fw-normal">Guillermo Dean</h1>
                 <p class="lead"><em>- Pura vida -</em></p>
-                <!-- TODO cambia esta mierda -->
             </div>
-
         </div>
     </div>
 
@@ -96,7 +103,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette p-lg-5">
+    <div class="row  p-lg-5">
         <div class="col-md-7 order-md-2 text-center text-md-center overflow-hidden position-relative p-3 p-md-6">
             <h3>Data processing for Gorosti society. <span class="text-muted">Sociedad Gorosti. (2010-2012)
                 </span></h3>
@@ -124,7 +131,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette p-lg-5">
+    <div class="row  p-lg-5">
         <div class="col-md-7  text-center text-md-center overflow-hidden position-relative p-3 p-md-6">
             <h3>Final degree proyect <span class="text-muted"> VISCOFAN S.A. (2014)
                 </span> </h3>
@@ -145,7 +152,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette p-lg-5">
+    <div class="row  p-lg-5">
         <div class="col-md-7 order-md-2 text-center text-md-center overflow-hidden position-relative p-3 p-md-6">
             <h3>Quality control technician. <span class="text-muted"> Wisco Española, S.A (2014-2015)
                 </span> </h3>
@@ -184,7 +191,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette p-lg-5">
+    <div class="row  p-lg-5">
         <div class="col-md-7  text-center text-md-center overflow-hidden position-relative p-3 p-md-6">
             <h3>Quality Management Assistant. <span class="text-muted"> Wisco Española, S.A (2015-2016)
                 </span> </h3>
@@ -212,7 +219,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette p-lg-5">
+    <div class="row  p-lg-5">
         <div class="col-md-7 order-md-2 text-center text-md-center overflow-hidden position-relative p-3 p-md-6">
             <h3>Quality engineer. <span class="text-muted"> ISRINGHAUSEN S.L.U. (2016 - Today)
                 </span> </h3>
@@ -312,7 +319,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette flex m-1 project">
+    <div class="row flex project p-lg-5">
         <div class="col-md-4 p-1">
             <div class="card">
                 <img class="card-img-top" src="public/img/fondomega_2.jpg" alt="Card image cap">
@@ -349,11 +356,6 @@
         </div>
     </div>
 
-
-
-
-
-
     <hr id="sideline" class="featurette-divider">
 
     <div class="text-center flex-column">
@@ -378,7 +380,7 @@
 
     <hr class="featurette-divider ">
 
-    <div class="row featurette justify-content-center flex-row">
+    <div class="row justify-content-center flex-row p-lg-5">
         <div class="col-md-5 feature  text-center text-md-center overflow-hidden position-relative p-3 m-4 box-shadow">
             <h2 class="featurette-heading m-2">Handball
             </h2>
@@ -395,107 +397,102 @@
                     href="">Buceo Mistral</a> since 2001. In the last years also with many friends joining this
                 adventure.</p>
         </div>
+    </div>
 
 
-        <hr id="Cuadrilla" class="featurette-divider">
+    <hr id="Cuadrilla" class="featurette-divider">
 
-        <div class="text-center flex-column">
-            <h1 class="text-center" id="Projects">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
-                        class="bi bi-people-fill icon-blue" viewBox="0 0 16 16">
-                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                        <path fill-rule="evenodd"
-                            d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
-                        <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
-                    </svg>
-                    <path
-                        d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z" />
-                    </svg> Family and Friends
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
-                        class="bi bi-people-fill icon-blue" viewBox="0 0 16 16">
-                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                        <path fill-rule="evenodd"
-                            d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
-                        <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
-                    </svg>
-                </p>
-            </h1>
-        </div>
-
-        <hr class="featurette-divider-mosaic">
-
-
-        <div class="row featurette featurette-mosaic p-lg-5">
-
-            <div class="row row-featurette-mosaic featurette justify-content-center flex-row">
-                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
-                    <a href="https://faroasesoria.com/">
-                        <figure><img src="/public/img/Logo-sin-fondo-300x159.png" alt="Faro"></figure>
-                    </a>
-                    <span>Energy consultancy founded by my friend Diego Montesino.</span>
-                </div>
-                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
-                    <a href="https://oftal20.com/">
-                        <figure> <img src="/public/img/oftal.jpg" alt="oftal20"></figure>
-                    </a>
-                    <span>Oftal20 is a question competition for ophthalmology professionals launched by my friend Pablo
-                        Plaza.</span>
-                </div>
-                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
-                    <a
-                        href="https://www.amazon.es/Universidad-P%C3%BAblica-Navarra-Nafarroako-Unibertsitate/dp/8497692896">
-                        <figure><img src="/public/img/WhatsApp Image 2021-09-16 at 17.59.20.jpeg" alt="Gon"></figure>
-                    </a>
-                    <span> Book with relevant information to help identify the species that inhabit the UPNA campus
-                        whose author is my brother Gonzalo Dean.</span>
-                </div>
-                <div class="col-md-2 text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
-                    <a href="https://www.cnmindfulness.es/">
-                        <figure><img src="/public/img/WhatsApp Image 2021-09-17 at 21.10.32.jpeg" alt="indra"></figure>
-                    </a>
-                    <span>The Navarre Center for Mindfulness is a space created with the aim of providing the theory and
-                        practice of mindfulness and other areas of Psychology.</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- FOOTER -->
-        <!-- 
-        <hr id="Social-Media" class="featurette-divider"> -->
-
-
-        <div class="row featurette p-lg-5">
-            <div
-                class="col-md-7 text-center text-md-center overflow-hidden position-relative overflow-hidden  p-3 p-md-6">
-                <h2 class="featurette-heading">Social Media. <span class="text-muted">It’ll not blow your
-                        mind.</span></h2>
-                <p class="lead">Some great accounts where you can find me not beeing professional, except for Linkedin.
-                </p>
-                <div class="container-fluid">
-                    <a href="https://www.facebook.com/gwillidean/" class="fa fa-facebook m-2"></a>
-                    <a href="https://twitter.com/gramenhauer" class="fa fa-twitter m-2"></a>
-                    <a href="https://www.instagram.com/will.j.dean/" class="fa fa-instagram m-2"></a>
-                    <a href="https://www.linkedin.com/in/guillermo-de%C3%A1n-683b9293" class="fa fa-linkedin m-2"></a>
-                </div>
-            </div>
-            <div class="col-md-5  p-3 p-md-6">
-                <img src="public/img/IMG_20200719_181633_2.jpg" alt="Postu1" class="responsive">
-            </div>
-        </div>
-
-        <footer class="container">
-            <p class="float-right">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#0161C6"
-                        class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-                    </svg>
-                </a>
+    <div class="text-center flex-column">
+        <h1 class="text-center" id="Projects">
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                    class="bi bi-people-fill icon-blue" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    <path fill-rule="evenodd"
+                        d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                </svg>
+                <path
+                    d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z" />
+                </svg> Family and Friends
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                    class="bi bi-people-fill icon-blue" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    <path fill-rule="evenodd"
+                        d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                </svg>
             </p>
-            <p>&copy; 2021 Guillermo Dean</p>
-        </footer>
+        </h1>
+    </div>
+
+    <hr class="featurette-divider-mosaic">
+
+
+    <div class="row featurette-mosaic justify-content-evenly flex-row p-lg-5">
+        <div class="col-md-2 fco text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+            <a href="https://faroasesoria.com/">
+                <figure><img src="/public/img/Logo-sin-fondo-300x159.png" alt="Faro"></figure>
+            </a>
+            <span>Energy consultancy founded by my friend Diego Montesino.</span>
+        </div>
+        <div class="col-md-2 fco text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+            <a href="https://oftal20.com/">
+                <figure> <img src="/public/img/oftal.jpg" alt="oftal20"></figure>
+            </a>
+            <span>Oftal20 is a question competition for ophthalmology professionals launched by my friend Pablo
+                Plaza.</span>
+        </div>
+        <div class="col-md-2 fco text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+            <a
+                href="https://www.amazon.es/Universidad-P%C3%BAblica-Navarra-Nafarroako-Unibertsitate/dp/8497692896">
+                <figure><img src="/public/img/WhatsApp Image 2021-09-16 at 17.59.20.jpeg" alt="Gon"></figure>
+            </a>
+            <span> Book with relevant information to help identify the species that inhabit the UPNA campus
+                whose author is my brother Gonzalo Dean.</span>
+        </div>
+        <div class="col-md-2 fco text-center text-md-center overflow-hidden position-relative p-3 m-4 hover01">
+            <a href="https://www.cnmindfulness.es/">
+                <figure><img src="/public/img/WhatsApp Image 2021-09-17 at 21.10.32.jpeg" alt="indra"></figure>
+            </a>
+            <span>The Navarre Center for Mindfulness is a space created with the aim of providing the theory and
+                practice of mindfulness and other areas of Psychology.</span>
+        </div>
+    </div>
+
+
+
+    <div class="row p-lg-5">
+        <div
+            class="col-md-7 text-center text-md-center overflow-hidden position-relative overflow-hidden  p-3 p-md-6">
+            <h2 class="featurette-heading">Social Media. <span class="text-muted">It’ll not blow your
+                    mind.</span></h2>
+            <p class="lead">Some great accounts where you can find me not beeing professional, except for Linkedin.
+            </p>
+            <div class="container-fluid">
+                <a href="https://www.facebook.com/gwillidean/" class="fa fa-facebook m-2"></a>
+                <a href="https://twitter.com/gramenhauer" class="fa fa-twitter m-2"></a>
+                <a href="https://www.instagram.com/will.j.dean/" class="fa fa-instagram m-2"></a>
+                <a href="https://www.linkedin.com/in/guillermo-de%C3%A1n-683b9293" class="fa fa-linkedin m-2"></a>
+            </div>
+        </div>
+        <div class="col-md-5  p-3 p-md-6">
+            <img src="public/img/IMG_20200719_181633_2.jpg" alt="Postu1" class="responsive">
+        </div>
+    </div>
+
+    <div class="container-fluid m-lg-auto p-lg-5">
+        <p class="float-right">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#0161C6"
+                    class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                </svg>
+            </a>
+        </p>
+        <p>&copy; 2021 Guillermo Dean</p>
+    </div>
 
 
 </body>

@@ -1,11 +1,18 @@
 
 /* --------------------MAIN------------------------- */
 
-body {
+body,html {
     background-color: whitesmoke;
     color: #666666;
     font-family: 'Hind Siliguri';
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    width: 100%;
+    /* overflow-y: hidden;  */
 }
+
 
 .main {
     background-color: whitesmoke;
@@ -18,28 +25,36 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width:100%;
   
+}
+
+.navbar {
+  width: 100%;
 }
 
 
 .header {
   background-image: linear-gradient(to bottom, #444444, rgba(255,0,0,0));
   color: whitesmoke;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .header a{
   color: whitesmoke;
 }
-.header a:hover{
-  
+
+.navbar-toggler {
+  background-color: #e0ca3c;
+}
+.navbar-toggler-icon{
+  color: whitesmoke;
+
 }
 
-.site-header a {
-  color: whitesmoke;
-}
 .project {
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom:5rem;
   background: #666666 ;
 }
 .box {
@@ -55,6 +70,12 @@ body {
   font-size: 130%;
 }
 
+.footer{
+  padding-top: .5rem;
+  max-width: 100%;
+  padding-right: 1rem;
+  padding-right: 1rem;
+}
 /* --------------------Featurettes------------------------- */
 
 .text-muted{
@@ -94,6 +115,7 @@ hr {
   background-image: linear-gradient(to bottom, #0161C6, rgba(255,0,0,0));;
 }
 
+
 /* --------------------lists------------------------- */  
 
 ul {
@@ -131,7 +153,10 @@ ul {
   color: whitesmoke;
 }
 .card {
+  margin: 3rem;
+  padding: auto;
   height: 100%;
+
 }
 
 /* --------------------images------------------------- */
@@ -213,10 +238,14 @@ ul {
 
 
 
-.row-featurette-mosaic img {
+.featurette-mosaic img {
   margin-top: 8px;
   vertical-align: middle;
   width: 180px;
+}
+
+.fco {
+  width: 200px;
 }
 
 
