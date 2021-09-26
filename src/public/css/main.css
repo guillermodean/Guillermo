@@ -20,7 +20,7 @@ body,html {
     font-family: 'Hind Siliguri', sans-serif;
 }
 .front {
-  background-image: url(public/img/12082017-DSC00219-scala.jpg);
+  background-image: url(/img/12082017-DSC00219-scala.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
