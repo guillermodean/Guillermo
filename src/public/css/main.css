@@ -162,7 +162,7 @@ ul {
 .card {
   margin: 3rem;
   padding: auto;
-  height: 100%;
+  height: auto;
 
 }
 
@@ -194,6 +194,7 @@ ul {
 /* --------------------Buttons------------------------- */
 .btn-a {
   background-color:#0161C6 ;
+
 
 }
 .feature {
@@ -267,6 +268,28 @@ ul {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
+
+/* If the screen size is 769px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 769px) {
+  .lead {
+    font-size: 30px;
+  }
+  .lead-2{
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 768px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 768px) {
+  .lead {
+    font-size: 15px;
+  }
+  .lead-2{
+    font-size: 13px;
+  }
+}
+
+
 
 
 
