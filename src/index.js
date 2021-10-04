@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express()
 const path = require('path')
+const ENTORNO = require("../config.json")
 
 
 //settings
-app.set('port',8080)
+app.set('port',ENTORNO.PRODUCCION.Port)
 app.set ('views',path.join(__dirname,'views'))
 app.set ('view engine','ejs')
 app.engine('html',require('ejs').renderFile)

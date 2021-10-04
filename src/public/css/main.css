@@ -52,12 +52,11 @@ overflow: hidden;
 }
 
 .navbar-toggler {
-  background-color: #e0ca3c;
-}
-.navbar-toggler-icon{
+  background-color:rgba(255,0,0,0) ;
+  /* #e0ca3c; */
   color: whitesmoke;
-
 }
+
 
 .project {
   padding-top: 1em;
@@ -272,7 +271,7 @@ ul {
 /* If the screen size is 769px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 769px) {
   .lead {
-    font-size: 30px;
+    font-size: 20px;
   }
   .lead-2{
     font-size: 20px;

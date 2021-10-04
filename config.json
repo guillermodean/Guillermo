@@ -1,0 +1,11 @@
+{
+    "PRODUCCION": {
+        "Port": "8080"
+    },
+    "DESARROLLO": {
+        "Port": "3000"
+    },
+    "DOCKER": {
+        "Port": "8081"
+    }
+}
